@@ -1,0 +1,33 @@
+* {
+  margin: 0; /* This is used to remove that extra spacing*/
+}
+
+.app {
+  background-color: #fafafa;
+}
+
+.app__header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain; /* No matter how big the page gets we 
+  dont want to change the logo so we do this */
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+.app__headerImage {
+  margin-top: 3px;
+  object-fit: contain;
+}
+
+.app__signup {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__posts {
+  padding: 20px;
+}
